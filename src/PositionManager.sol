@@ -134,7 +134,7 @@ contract PositionManager is
     )
         BaseActionsRouter(_poolManager)
         Permit2Forwarder(_permit2)
-        ERC721Permit_v4("Uniswap v4 Positions NFT", "UNI-V4-POSM")
+        ERC721Permit_v4("ETCswap V4 Positions NFT", "ETCswap-V4-POS")
         Notifier(_unsubscribeGasLimit)
         NativeWrapper(_weth9)
     {

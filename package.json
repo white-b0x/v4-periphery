@@ -1,22 +1,20 @@
 {
-  "name": "@uniswap/v4-periphery",
+  "name": "@etcswap/v4-periphery",
   "version": "1.0.3",
-  "description": "🦄 Peripheral smart contracts for interacting with Uniswap v4",
+  "description": "Peripheral smart contracts for interacting with ETCswap V4",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Uniswap/v4-periphery.git"
+    "url": "git+https://github.com/etcswap/v4-periphery.git"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://uniswap.org/bug-bounty"
-  },
-  "homepage": "https://github.com/Uniswap/v4-periphery#readme",
+  "homepage": "https://etcswap.org",
   "publishConfig": {
     "access": "public",
     "provenance": true
   },
   "keywords": [
-    "uniswap",
+    "etcswap",
+    "ethereum-classic",
     "periphery",
     "v4"
   ]

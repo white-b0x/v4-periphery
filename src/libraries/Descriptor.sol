@@ -120,7 +120,7 @@ library Descriptor {
         // displays quote currency first, then base currency
         return string(
             abi.encodePacked(
-                "This NFT represents a liquidity position in a Uniswap v4 ",
+                "This NFT represents a liquidity position in an ETCswap V4 ",
                 quoteCurrencySymbol,
                 "-",
                 baseCurrencySymbol,
@@ -182,7 +182,7 @@ library Descriptor {
         // image shows in terms of price, ie quoteCurrency/baseCurrency
         return string(
             abi.encodePacked(
-                "Uniswap - ",
+                "ETCswap - ",
                 feeTier,
                 " - ",
                 escapeSpecialCharacters(params.quoteCurrencySymbol),
